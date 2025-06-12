@@ -119,3 +119,9 @@ print('Root Mean Squared Error:',rmse)
 print('Mean Absolute Error:',mae)
 print('R-squared:',r_squared)
 
+
+The accuracy of the Logistic Regression is : 0.8330071754729289
+The accuracy of the Linear Regression is : 0.8369210697977821
+The data Labels are having stroke and not having stroke.
+
+
