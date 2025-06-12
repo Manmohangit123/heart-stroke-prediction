@@ -101,27 +101,12 @@ model.fit(train_X, train_Y)
 # Make predictions on the test set
 prediction = model.predict(test_X)
 
-# Assuming 'test_Y' contains the true labels for the test set
-# Calculate the accuracy
-accuracy = accuracy_score(test_Y, prediction.round())
-
-# Print the accuracy
-print('The accuracy of Linear Regression is:', accuracy)
-
-#Evaluate the model using various metrices
-mse = mean_squared_error(test_Y, prediction)
-rmse = mean_squared_error(test_Y, prediction, squared=False) #Calculate the square root of MSE
-mae = mean_absolute_error(test_Y, prediction)
-r_squared=r2_score(test_Y, prediction)
-
-print('Mean squared Error:',mse)
-print('Root Mean Squared Error:',rmse)
-print('Mean Absolute Error:',mae)
-print('R-squared:',r_squared)
 
 
 The accuracy of the Logistic Regression is : 0.8330071754729289
+
 The accuracy of the Linear Regression is : 0.8369210697977821
+
 The data Labels are having stroke and not having stroke.
 
 
