@@ -1,7 +1,7 @@
 # 🫀 Heart Stroke Prediction
 
 This project predicts the likelihood of a heart stroke based on various personal health metrics.
-In this project, if a person is predicted to have a stroke, it is represented as 0, and if the person is predicted not to have a stroke, it is represented as 1.
+In this project, if a person is predicted to have a stroke, it is represented as 1, and if the person is predicted not to have a stroke, it is represented as 0.
 
 ## 📊 Dataset Overview
 
