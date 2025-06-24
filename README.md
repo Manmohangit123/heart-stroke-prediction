@@ -42,9 +42,9 @@ Total: 5,110
 
 ## 📈 Stroke Prediction Results
 
-4,241 individuals are predicted to have a stroke.
+869 individuals are predicted to have a stroke.
 
-869 individuals are predicted to not have a stroke.
+4,241 individuals are predicted to not have a stroke.
 
 ## 🤖 Algorithms Used
 
